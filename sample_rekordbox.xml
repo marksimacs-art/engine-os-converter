@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DJ_PLAYLISTS Version="1.0.0">
+  <COLLECTION Entries="2">
+    <TRACK TrackID="101" Name="Test Banger 1" Artist="DJ Demo" AverageBpm="128.00" Tonality="8A" Location="file://localhost/Users/mahrkie/Music/TestTracks/track1.mp3">
+      <POSITION_MARK Name="Intro Drop" Type="0" Start="15.000" Num="0"/>
+      <POSITION_MARK Name="Breakdown" Type="0" Start="60.000" Num="1"/>
+    </TRACK>
+    <TRACK TrackID="102" Name="Test Banger 2" Artist="Engine Producer" AverageBpm="124.00" Tonality="5A" Location="file://localhost/Users/mahrkie/Music/TestTracks/track2.mp3">
+      <POSITION_MARK Name="Main Build" Type="0" Start="30.000" Num="0"/>
+    </TRACK>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT">
+      <NODE Type="1" Name="Peak Hour Bangers">
+        <TRACK Key="101"/>
+        <TRACK Key="102"/>
+      </NODE>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
